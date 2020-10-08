@@ -6,9 +6,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/blog/css/bootstrap.min.css">
-<script src="/blog/js/jquery.min.js"></script>
-<script src="/blog/js/bootstrap.min.js"></script>
-<script src="/blog/js/popper.min.js"></script>
+<script src="/blog/js/config/jquery.min.js"></script>
+<script src="/blog/js/config/bootstrap.min.js"></script>
+<script src="/blog/js/config/popper.min.js"></script>
 </head>
 <body>
 

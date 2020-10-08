@@ -5,6 +5,6 @@
 	<p>Footer</p>
 </div>
 
-<script src="/blog/js/user.js"></script>
+<script src="/blog/js/user/user.js"></script>
 </body>
 </html>
