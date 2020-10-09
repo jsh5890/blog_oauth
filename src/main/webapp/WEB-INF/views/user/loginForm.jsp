@@ -2,7 +2,7 @@
 <%@ include file="../layout/header.jsp"%>
 
 <div class="container">
-	<form action="/action_page.php">
+	<form>
 		<div class="form-group">
 			<label for="username">Username</label> <input type="text" class="form-control" placeholder="Enter username" id="username">
 		</div>
@@ -13,9 +13,9 @@
 			<label class="form-check-label"> <input class="form-check-input" type="checkbox"> Remember me
 			</label>
 		</div>
-		
+
 	</form>
-	<button type="submit" class="btn btn-primary">회원가입</button>
+	<button id="btn_login" class="btn btn-primary">회원가입</button>
 </div>
 
 <%@ include file="../layout/footer.jsp"%>

@@ -1,9 +1,8 @@
 package com.jmao.blog.service;
 
-import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.jmao.blog.model.User;
 import com.jmao.blog.repository.UserRepository;
@@ -25,5 +24,10 @@ public class UserService {
 		}
 
 		return -1;
+	}
+
+	@Transactional(readOnly = true)
+	public User 로그인(User user) {
+		return userRepository.findByUsernameAndPassword(user.getUsername(), user.getPassword());
 	}
 }
