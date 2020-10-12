@@ -1,9 +1,9 @@
-  _________                                       
+  _________
  /   _____/ __________   _________ _______ ___.__.
  \_____  \ /  ___/  _ \ / ___\__  \\_  __ <   |  |
  /        \\___ (  <_> ) /_/  > __ \|  | \/\___  |
 /_______  /____  >____/\___  (____  /__|   / ____|
-        \/     \/     /_____/     \/       \/     
+        \/     \/     /_____/     \/       \/
 spring-boot.version : ${spring-boot.version}
 application.version : ${application.version}
 application.title : ${application.title}

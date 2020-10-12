@@ -19,11 +19,10 @@ public class UserApiController {
 	@Autowired
 	private UserService userService;
 
-	@PostMapping("/api/user")
+	@PostMapping("/auth/join")
 	public ResponseDto<Integer> save(@RequestBody User user) {
 		System.out.println("UserApiController : 세이브 호출됨");
 
-		user.setRole(RoleType.USER);
 		int result = userService.회원가입(user);
 
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), result);
