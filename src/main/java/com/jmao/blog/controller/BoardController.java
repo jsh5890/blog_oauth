@@ -1,20 +1,30 @@
 package com.jmao.blog.controller;
 
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.jmao.blog.config.auth.PrincipalDetail;
+import com.jmao.blog.service.BoardService;
 
 @Controller
 public class BoardController {
 	/*
 	 * @Autowired private PrincipalDetail principalDetail;
 	 */
+
+	@Autowired
+	private BoardService boardService;
+
 	 //@AuthenticationPrincipal PrincipalDetail principalDetail
 	@GetMapping({"","/"})
-	public String index(@AuthenticationPrincipal PrincipalDetail principalDetail) {
-		System.out.println("principalDetail : " + principalDetail.getUsername());
+	public String index(Model model) {
+		model.addAttribute("board", boardService.글리스트());
 		return "index";
+	}
+
+	@GetMapping({"/board/saveForm"})
+	public String saveForm() {
+		return "board/saveForm";
 	}
 }

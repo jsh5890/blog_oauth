@@ -42,7 +42,6 @@ public class Board {
 	@Lob // 섬머노트 라이브러리 html 태그 섞어서 드러감
 	private String content; // 내용
 
-	@ColumnDefault("0")
 	private int count; // 조회수
 
 	@ManyToOne(fetch = FetchType.EAGER)
@@ -55,7 +54,7 @@ public class Board {
 	@CreationTimestamp // 시간이 자동으로 입력
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Seoul")
 	private LocalDateTime createDate;
-	
+
 	@CreationTimestamp // 시간이 자동으로 입력
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Seoul")
 	private LocalDateTime updateDate;

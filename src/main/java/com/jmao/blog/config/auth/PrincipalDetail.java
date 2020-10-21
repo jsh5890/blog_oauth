@@ -8,7 +8,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.jmao.blog.model.User;
 
+import lombok.Getter;
+
 // 스프링 시큐리티가 로긴을 가로채고 로긴될때 유저디테일즈에서 오브젝트에 시큐리티 세션이 저장됨
+@Getter
 public class PrincipalDetail implements UserDetails{
 	private User user;//컴포지션
 
