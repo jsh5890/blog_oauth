@@ -14,7 +14,7 @@ import com.jmao.blog.config.auth.PrincipalDetailService;
 
 // 빈등록 : 스프링 컨테이너에서 객체를 관리할수 있게하는것
 
-@Configuration // 빈등록 ioc관리
+@Configuration // 빈등록 ioc관리1234
 @EnableWebSecurity // 시큐리티 필터 추가 = 스프링시큐리티가 활성이 되어있는데 어떤설정을 파일에서 하게따.
 @EnableGlobalMethodSecurity(prePostEnabled = true) // 특정주소 권한체크하게따
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
