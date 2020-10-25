@@ -60,11 +60,11 @@ public class DummyControllerTest {
 	}
 	
 	@GetMapping("/dummy/user")
-	public List<User> pageList(@PageableDefault(size = 1,sort = "id",direction = Sort.Direction.DESC) Pageable pageable){
+	public Page<User> pageList(@PageableDefault(size = 1,sort = "id",direction = Sort.Direction.DESC) Pageable pageable){
 		Page<User> page = userRepository.findAll(pageable); 
 		
 		List<User> user = page.getContent();
-		return user;
+		return page;
 	}
 	
 	//save함수는 아이디를 전달하지않으면 insert id전달하면 업데이트하는데 널값들도 널로업뎃함
