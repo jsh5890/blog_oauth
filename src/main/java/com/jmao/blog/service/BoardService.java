@@ -32,6 +32,12 @@ public class BoardService {
 		return boardRepository.findAll(pageable);
 	}
 
+	public Board 글상세보기(int id) {
+		return boardRepository.findById(id).orElseThrow(()->{
+			return new IllegalArgumentException("글 상세 보기 실패");
+		});	
+	}
+
 	/*
 	 * @Transactional(readOnly = true) public User 로그인(User user) { return
 	 * userRepository.findByUsernameAndPassword(user.getUsername(),
