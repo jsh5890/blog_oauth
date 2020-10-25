@@ -3,6 +3,10 @@ let board= {
 		$("#btn_save").on("click",()=>{
 			this.save();
 		});
+		
+		$("#btn_delete").on("click",()=>{
+			this.deleteById();
+		});
 
 	},
 
@@ -28,6 +32,25 @@ let board= {
 		}).fail(function(e){
 			alert(JSON.stringify(e));
 		});// 아작스 통신을 이용해서 data를 json변경해서 insert하기
+	},
+	
+	deleteById : function(){
+		let data = {
+			id :  $("#id").text()
+		};
+		$.ajax({
+			type : "DELETE",
+			url :"/api/boardDelete",
+			data : JSON.stringify(data),
+			contentType : "application/json; charset=utf-8",
+			dataType : "json"
+		}).done(function(result){
+			alert("삭제 완료");
+			console.log(result);
+			location.href = "/";
+		}).fail(function(e){
+			alert(JSON.stringify(e));
+		});
 	},
 }
 

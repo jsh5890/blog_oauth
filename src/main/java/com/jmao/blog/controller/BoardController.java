@@ -27,9 +27,9 @@ public class BoardController {
 		return "index";
 	}
 
-	@GetMapping({"/board/saveForm"})
+	@GetMapping({"/board/regist"})
 	public String saveForm() {
-		return "board/saveForm";
+		return "board/regist";
 	}
 	
 	@GetMapping({"/board/view/{id}"})
