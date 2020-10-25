@@ -5,6 +5,8 @@ import java.util.function.Supplier;
 
 import javax.transaction.Transactional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
@@ -25,6 +27,8 @@ import com.jmao.blog.repository.UserRepository;
 
 @RestController
 public class DummyControllerTest {
+	
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	@Autowired
 	private UserRepository userRepository;
@@ -71,9 +75,9 @@ public class DummyControllerTest {
 	@Transactional // 함수종료시 자동커밋이됨
 	@PutMapping("/dummy/user/{id}")
 	public User updateUser(@PathVariable int id, @RequestBody User requestUser) {
-		System.out.println("id : " + id);
-		System.out.println("getPassword : " + requestUser.getPassword());
-		System.out.println("getEmail : " + requestUser.getEmail());
+		logger.info("id : " + id);
+		logger.info("getPassword : " + requestUser.getPassword());
+		logger.info("getEmail : " + requestUser.getEmail());
 		
 		User user = userRepository.findById(id).orElseThrow(()->{
 			return new IllegalArgumentException("수정에 실패했습니다.");

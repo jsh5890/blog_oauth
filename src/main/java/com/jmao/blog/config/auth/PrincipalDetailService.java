@@ -1,5 +1,7 @@
 package com.jmao.blog.config.auth;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -11,7 +13,9 @@ import com.jmao.blog.repository.UserRepository;
 
 @Service
 public class PrincipalDetailService implements UserDetailsService {
-
+	
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	
 	@Autowired
 	private UserRepository userRepository;
 	
@@ -23,7 +27,7 @@ public class PrincipalDetailService implements UserDetailsService {
 				.orElseThrow(()->{
 					return new UsernameNotFoundException("해당유저찾을수없습니다.");
 				});
-		System.out.println("principal : " + principal);
+		logger.info("principal : " + principal);
 		return new PrincipalDetail(principal); //시큐리티 세션 유저정보 저장
 	}
 }

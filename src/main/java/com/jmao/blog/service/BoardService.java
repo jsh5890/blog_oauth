@@ -1,5 +1,7 @@
 package com.jmao.blog.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -13,7 +15,9 @@ import com.jmao.blog.repository.BoardRepository;
 //스프링 컴포넌트 스캔을 통해서 Bean에 등록을 해줌. loC를 해준다.
 @Service
 public class BoardService {
-
+	
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	
 	@Autowired
 	private BoardRepository boardRepository;
 
@@ -24,7 +28,7 @@ public class BoardService {
 			board.setUser(user);
 			boardRepository.save(board);
 		} catch (Exception e) {
-			System.out.println("글쓰기 : " + e.getLocalizedMessage());
+			logger.info("글쓰기 : " + e.getLocalizedMessage());
 		}
 	}
 

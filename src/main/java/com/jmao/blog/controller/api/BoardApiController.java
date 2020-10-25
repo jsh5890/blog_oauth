@@ -2,6 +2,8 @@ package com.jmao.blog.controller.api;
 
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -18,20 +20,22 @@ import com.jmao.blog.service.BoardService;
 
 @RestController
 public class BoardApiController {
-
+	
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	
 	@Autowired
 	private BoardService boardService;
 
 	@PostMapping("/api/board")
 	public ResponseDto<Integer> save(@RequestBody Board board,@AuthenticationPrincipal PrincipalDetail principalDetail) {
-		System.out.println("UserApiController : 세이브 호출됨");
+		logger.info("UserApiController : 세이브 호출됨");
 		boardService.글쓰기(board, principalDetail.getUser());
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
 	
 	@DeleteMapping("/api/boardDelete")
 	public ResponseDto<Integer> deleteById(@RequestBody Map<String, String> map) {
-		System.out.println("map : " + map);
+		logger.info("map : " + map);
 		int id = Integer.parseInt(map.get("id"));
 		boardService.글삭제하기(id);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
