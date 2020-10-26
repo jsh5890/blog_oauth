@@ -1060,3 +1060,654 @@ Consider the following:
 2020:10:26 01:34:40.678 INFO  --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
 2020:10:26 01:34:40.679 INFO  --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated... 
 2020:10:26 01:34:40.684 INFO  --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed. 
+2020:10:26 01:35:32.325 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 13564 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 01:35:32.328 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 01:35:32.354 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020:10:26 01:35:32.355 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020:10:26 01:35:32.760 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 01:35:32.801 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 2 JPA repository interfaces. 
+2020:10:26 01:35:32.967 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6b96d74a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 01:35:32.970 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 01:35:33.157 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 01:35:33.163 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 01:35:33.163 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 01:35:33.319 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 01:35:33.325 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 01:35:33.325 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 970 ms 
+2020:10:26 01:35:33.368 WARN  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [CB757594BEAFC0D26C739DF3734A3F03] 
+2020:10:26 01:35:33.452 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 01:35:33.477 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 01:35:33.503 INFO  --- [task-1] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final 
+2020:10:26 01:35:33.568 INFO  --- [task-1] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2020:10:26 01:35:33.621 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting... 
+2020:10:26 01:35:33.639 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@230b3c10, org.springframework.security.web.context.SecurityContextPersistenceFilter@45ea5ee5, org.springframework.security.web.header.HeaderWriterFilter@3de3451d, org.springframework.security.web.authentication.logout.LogoutFilter@fd7373d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51c30c56, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f3f7b3e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73c18607, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d61dd, org.springframework.security.web.session.SessionManagementFilter@2b756a2b, org.springframework.security.web.access.ExceptionTranslationFilter@35ce61e7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e039434] 
+2020:10:26 01:35:33.694 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed. 
+2020:10:26 01:35:33.704 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 01:35:33.790 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 01:35:33.891 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 01:35:33.920 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 01:35:33.921 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 01:35:34.130 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 01:35:34.134 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 01:35:34.304 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 01:35:34.310 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 2.29 seconds (JVM running for 2.81) 
+2020:10:26 01:35:36.093 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 01:35:36.094 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 01:35:36.098 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 4 ms 
+2020:10:26 01:35:46.661 INFO  --- [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 01:35:46.662 INFO  --- [Thread-5] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 01:35:46.663 INFO  --- [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated... 
+2020:10:26 01:35:46.668 INFO  --- [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed. 
+2020:10:26 01:35:46.735 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 13564 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 01:35:46.735 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 01:35:46.862 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 01:35:46.872 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 2 JPA repository interfaces. 
+2020:10:26 01:35:46.913 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5ea40724' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 01:35:46.915 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 01:35:46.968 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 01:35:46.969 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 01:35:46.969 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 01:35:47.032 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 01:35:47.033 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 01:35:47.033 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 296 ms 
+2020:10:26 01:35:47.077 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 01:35:47.085 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 01:35:47.089 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Starting... 
+2020:10:26 01:35:47.090 WARN  --- [task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator : HHH000342: Could not obtain connection to query metadata : Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:mariadb://192.168.1.178:3306/blog?serverTimezone=Asia/Seoul 
+2020:10:26 01:35:47.148 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@106c69f, org.springframework.security.web.context.SecurityContextPersistenceFilter@306d8df7, org.springframework.security.web.header.HeaderWriterFilter@49fa1015, org.springframework.security.web.authentication.logout.LogoutFilter@1454be25, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@310a30d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f77444e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@694850d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c92c9f4, org.springframework.security.web.session.SessionManagementFilter@137ba57c, org.springframework.security.web.access.ExceptionTranslationFilter@13678a4e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52b50e1e] 
+2020:10:26 01:35:47.200 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 01:35:47.251 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 01:35:47.261 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 01:35:47.262 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 01:35:47.272 WARN  --- [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'boardRepository' defined in com.jmao.blog.repository.BoardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] 
+2020:10:26 01:35:47.273 INFO  --- [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 01:35:47.273 WARN  --- [restartedMain] o.s.b.f.s.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] 
+2020:10:26 01:35:47.273 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 01:35:47.312 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Stopping service [Tomcat] 
+2020:10:26 01:35:47.362 INFO  --- [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2020:10:26 01:35:47.367 ERROR --- [restartedMain] o.s.boot.SpringApplication : Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'boardRepository' defined in com.jmao.blog.repository.BoardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaMappingContext' while setting bean property 'mappingContext'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1697)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:624)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:612)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:51)
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:36)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:898)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.jmao.blog.BlogMavenApplication.main(BlogMavenApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaMappingContext': Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 33 common frames omitted
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 17 common frames omitted
+2020:10:26 01:36:05.222 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 13564 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 01:36:05.222 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 01:36:05.336 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 01:36:05.347 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 2 JPA repository interfaces. 
+2020:10:26 01:36:05.384 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@269bd989' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 01:36:05.385 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 01:36:05.422 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 01:36:05.422 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 01:36:05.422 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 01:36:05.475 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 01:36:05.476 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 01:36:05.476 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 252 ms 
+2020:10:26 01:36:05.512 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 01:36:05.518 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 01:36:05.522 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Starting... 
+2020:10:26 01:36:05.524 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Start completed. 
+2020:10:26 01:36:05.524 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 01:36:05.581 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60480ed0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ca5328d, org.springframework.security.web.header.HeaderWriterFilter@26ccc975, org.springframework.security.web.authentication.logout.LogoutFilter@1880a465, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@605e8130, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25e32db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4299c484, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47b02005, org.springframework.security.web.session.SessionManagementFilter@4e36231, org.springframework.security.web.access.ExceptionTranslationFilter@7053c8da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54c912fd] 
+2020:10:26 01:36:05.616 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 01:36:05.616 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 01:36:05.629 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 01:36:05.642 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 01:36:05.698 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 01:36:05.699 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 01:36:05.746 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 01:36:05.748 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.55 seconds (JVM running for 34.247) 
+2020:10:26 01:36:05.749 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 01:36:10.351 INFO  --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested. 
+2020:10:26 01:36:10.434 INFO  --- [RMI TCP Connection(4)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 01:36:10.435 INFO  --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 01:36:10.435 INFO  --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Shutdown initiated... 
+2020:10:26 01:36:10.437 INFO  --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Shutdown completed. 
+2020:10:26 21:49:46.697 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 21:49:46.700 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 21:49:46.731 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2020:10:26 21:49:46.731 INFO  --- [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2020:10:26 21:49:47.330 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 21:49:47.380 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 2 JPA repository interfaces. 
+2020:10:26 21:49:47.566 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@669d3581' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 21:49:47.569 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 21:49:47.766 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 21:49:47.773 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 21:49:47.774 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 21:49:47.936 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 21:49:47.942 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 21:49:47.942 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms 
+2020:10:26 21:49:48.067 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 21:49:48.097 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 21:49:48.137 INFO  --- [task-1] org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.21.Final 
+2020:10:26 21:49:48.247 INFO  --- [task-1] o.h.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+2020:10:26 21:49:48.266 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25f94141, org.springframework.security.web.context.SecurityContextPersistenceFilter@278d197b, org.springframework.security.web.header.HeaderWriterFilter@5a962b4b, org.springframework.security.web.authentication.logout.LogoutFilter@1cec157a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a49a583, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8ca61a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b800e06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2838b6a1, org.springframework.security.web.session.SessionManagementFilter@392f5f93, org.springframework.security.web.access.ExceptionTranslationFilter@1a6057cf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78e16130] 
+2020:10:26 21:49:48.320 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting... 
+2020:10:26 21:49:48.409 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 21:49:48.415 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed. 
+2020:10:26 21:49:48.428 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 21:49:48.525 INFO  --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 21:49:48.568 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 21:49:48.570 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 21:49:48.979 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 21:49:48.983 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 21:49:49.162 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 21:49:49.168 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 2.792 seconds (JVM running for 3.476) 
+2020:10:26 22:07:40.803 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 22:07:40.803 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 22:07:40.809 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 6 ms 
+2020:10:26 22:07:46.024 INFO  --- [http-nio-8000-exec-3] c.j.b.c.auth.PrincipalDetailService : principal : User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10) 
+2020:10:26 22:07:46.110 INFO  --- [http-nio-8000-exec-7] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 22:24:14.987 INFO  --- [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:24:14.988 INFO  --- [Thread-5] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:24:14.989 INFO  --- [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated... 
+2020:10:26 22:24:14.993 INFO  --- [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed. 
+2020:10:26 22:24:15.064 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 22:24:15.064 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 22:24:15.191 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 22:24:15.201 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 2 JPA repository interfaces. 
+2020:10:26 22:24:15.236 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2077dbea' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:24:15.237 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:24:15.278 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 22:24:15.278 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 22:24:15.278 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 22:24:15.334 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 22:24:15.336 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 22:24:15.336 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 270 ms 
+2020:10:26 22:24:15.356 WARN  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [FAB0A06FC51307F175611D5344F5893C] 
+2020:10:26 22:24:15.380 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:24:15.386 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 22:24:15.391 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Starting... 
+2020:10:26 22:24:15.393 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Start completed. 
+2020:10:26 22:24:15.393 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 22:24:15.449 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65ba80d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eee31a5, org.springframework.security.web.header.HeaderWriterFilter@3ecc8c90, org.springframework.security.web.authentication.logout.LogoutFilter@33c4f64, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b231c00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ce5e15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bbcfab0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c2c01dd, org.springframework.security.web.session.SessionManagementFilter@26b8307b, org.springframework.security.web.access.ExceptionTranslationFilter@6e242964, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@562a9d9c] 
+2020:10:26 22:24:15.502 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 22:24:15.508 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 22:24:15.509 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:24:15.520 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 22:24:15.564 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 22:24:15.565 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 22:24:15.608 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 22:24:15.611 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.577 seconds (JVM running for 2069.919) 
+2020:10:26 22:24:15.612 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 22:24:21.872 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 22:24:21.872 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 22:24:21.874 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 2 ms 
+2020:10:26 22:24:25.088 INFO  --- [http-nio-8000-exec-3] c.j.b.c.auth.PrincipalDetailService : principal : User(id=2, username=abcd, password=$2a$10$I0B24nDoBeiDAkyArHYAHOF9.gV0XUodwXrG.w4NaCLrca0Rlu/Q2, email=12345@basc.acc, role=USER, createDate=2020-10-25T23:14:14, updateDate=2020-10-25T23:14:14) 
+2020:10:26 22:24:25.167 INFO  --- [http-nio-8000-exec-5] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 22:47:45.114 INFO  --- [Thread-8] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:47:45.114 INFO  --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:47:45.115 INFO  --- [Thread-8] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Shutdown initiated... 
+2020:10:26 22:47:45.117 INFO  --- [Thread-8] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Shutdown completed. 
+2020:10:26 22:47:45.173 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 22:47:45.173 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 22:47:45.289 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 22:47:45.298 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 22:47:45.329 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1db972b5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:47:45.330 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:47:45.366 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 22:47:45.366 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 22:47:45.367 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 22:47:45.415 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 22:47:45.416 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 22:47:45.416 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 241 ms 
+2020:10:26 22:47:45.434 WARN  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [50043B7621389306962BDCB0E7EDA2D8] 
+2020:10:26 22:47:45.458 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:47:45.464 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 22:47:45.469 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Starting... 
+2020:10:26 22:47:45.472 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Start completed. 
+2020:10:26 22:47:45.472 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 22:47:45.523 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2384337, org.springframework.security.web.context.SecurityContextPersistenceFilter@42a08379, org.springframework.security.web.header.HeaderWriterFilter@50599c9a, org.springframework.security.web.authentication.logout.LogoutFilter@d388d82, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a7c210c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@557a5968, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49dba211, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71c1b44e, org.springframework.security.web.session.SessionManagementFilter@2c45cb21, org.springframework.security.web.access.ExceptionTranslationFilter@29b7cf5a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69eef177] 
+2020:10:26 22:47:45.572 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 22:47:45.582 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 22:47:45.582 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:47:45.600 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 22:47:45.632 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 22:47:45.633 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 22:47:45.673 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 22:47:45.675 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.527 seconds (JVM running for 3479.983) 
+2020:10:26 22:47:45.676 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 22:47:49.234 INFO  --- [Thread-13] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:47:49.235 INFO  --- [Thread-13] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:47:49.235 INFO  --- [Thread-13] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Shutdown initiated... 
+2020:10:26 22:47:49.237 INFO  --- [Thread-13] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Shutdown completed. 
+2020:10:26 22:47:49.290 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 22:47:49.291 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 22:47:49.401 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 22:47:49.411 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 22:47:49.440 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7fb97f57' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:47:49.440 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:47:49.475 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 22:47:49.476 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 22:47:49.476 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 22:47:49.521 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 22:47:49.522 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 22:47:49.522 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 230 ms 
+2020:10:26 22:47:49.559 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:47:49.564 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 22:47:49.570 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Starting... 
+2020:10:26 22:47:49.572 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Start completed. 
+2020:10:26 22:47:49.572 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 22:47:49.622 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b686886, org.springframework.security.web.context.SecurityContextPersistenceFilter@4967c005, org.springframework.security.web.header.HeaderWriterFilter@7573bc73, org.springframework.security.web.authentication.logout.LogoutFilter@134bf7c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1edf7749, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50e383ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@389b3de6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c198d40, org.springframework.security.web.session.SessionManagementFilter@1a48da81, org.springframework.security.web.access.ExceptionTranslationFilter@23e74f53, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5054e422] 
+2020:10:26 22:47:49.671 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 22:47:49.679 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 22:47:49.680 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:47:49.694 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 22:47:49.739 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 22:47:49.740 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 22:47:49.787 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 22:47:49.790 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.524 seconds (JVM running for 3484.097) 
+2020:10:26 22:47:49.791 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 22:49:42.127 INFO  --- [Thread-18] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:49:42.127 INFO  --- [Thread-18] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:49:42.127 INFO  --- [Thread-18] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Shutdown initiated... 
+2020:10:26 22:49:42.129 INFO  --- [Thread-18] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Shutdown completed. 
+2020:10:26 22:49:42.187 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 22:49:42.188 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 22:49:42.303 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 22:49:42.314 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 2 JPA repository interfaces. 
+2020:10:26 22:49:42.343 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2248b34c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:49:42.344 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:49:42.383 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 22:49:42.383 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 22:49:42.383 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 22:49:42.430 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 22:49:42.432 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 22:49:42.432 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 243 ms 
+2020:10:26 22:49:42.464 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:49:42.470 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 22:49:42.475 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Starting... 
+2020:10:26 22:49:42.477 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Start completed. 
+2020:10:26 22:49:42.477 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 22:49:42.528 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@735fd86f, org.springframework.security.web.context.SecurityContextPersistenceFilter@4aba31a8, org.springframework.security.web.header.HeaderWriterFilter@731eb997, org.springframework.security.web.authentication.logout.LogoutFilter@3a4cf694, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2ee535ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8288da1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@efc4f32, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e8bfb3c, org.springframework.security.web.session.SessionManagementFilter@44bd61c5, org.springframework.security.web.access.ExceptionTranslationFilter@bb92d2b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10414aa8] 
+2020:10:26 22:49:42.576 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 22:49:42.583 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 22:49:42.584 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:49:42.601 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 22:49:42.635 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 22:49:42.635 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 22:49:42.675 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 22:49:42.677 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.515 seconds (JVM running for 3596.984) 
+2020:10:26 22:49:42.678 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 22:56:30.312 INFO  --- [Thread-23] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:56:30.313 INFO  --- [Thread-23] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:56:30.313 INFO  --- [Thread-23] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Shutdown initiated... 
+2020:10:26 22:56:30.315 INFO  --- [Thread-23] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Shutdown completed. 
+2020:10:26 22:56:30.375 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 22:56:30.375 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 22:56:30.493 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 22:56:30.503 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 22:56:30.534 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@36476f1a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:56:30.535 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:56:30.574 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 22:56:30.575 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 22:56:30.575 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 22:56:30.622 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 22:56:30.623 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 22:56:30.623 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 247 ms 
+2020:10:26 22:56:30.662 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:56:30.668 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 22:56:30.672 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-6 - Starting... 
+2020:10:26 22:56:30.675 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-6 - Start completed. 
+2020:10:26 22:56:30.675 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 22:56:30.730 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6049894, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fc42b4d, org.springframework.security.web.header.HeaderWriterFilter@5154424f, org.springframework.security.web.authentication.logout.LogoutFilter@10791666, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6dc9f20c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15719844, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6644f69f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@627dcb36, org.springframework.security.web.session.SessionManagementFilter@76cdc305, org.springframework.security.web.access.ExceptionTranslationFilter@6dc6f524, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19050429] 
+2020:10:26 22:56:30.770 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 22:56:30.770 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:56:30.785 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 22:56:30.796 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 22:56:30.845 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 22:56:30.846 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 22:56:30.885 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 22:56:30.887 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.538 seconds (JVM running for 4005.194) 
+2020:10:26 22:56:30.888 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 22:56:42.855 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 22:56:42.855 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 22:56:42.857 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 2 ms 
+2020:10:26 22:56:47.681 INFO  --- [http-nio-8000-exec-9] c.j.b.c.auth.PrincipalDetailService : principal : User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10) 
+2020:10:26 22:56:48.941 INFO  --- [http-nio-8000-exec-7] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 22:56:50.144 INFO  --- [http-nio-8000-exec-5] c.j.blog.controller.BoardController : boardView : Board(id=6, title=234234234, content=<p>234234234</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T21:54:30, updateDate=2020-10-25T21:54:30) 
+2020:10:26 22:56:50.898 INFO  --- [http-nio-8000-exec-3] c.j.b.c.api.BoardApiController : map : {id=6} 
+2020:10:26 22:58:49.600 INFO  --- [Thread-28] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:58:49.601 INFO  --- [Thread-28] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:58:49.601 INFO  --- [Thread-28] com.zaxxer.hikari.HikariDataSource : HikariPool-6 - Shutdown initiated... 
+2020:10:26 22:58:49.603 INFO  --- [Thread-28] com.zaxxer.hikari.HikariDataSource : HikariPool-6 - Shutdown completed. 
+2020:10:26 22:58:49.659 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 22:58:49.659 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 22:58:49.766 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 22:58:49.777 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 2 JPA repository interfaces. 
+2020:10:26 22:58:49.809 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@8b0bc49' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:58:49.810 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 22:58:49.846 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 22:58:49.847 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 22:58:49.847 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 22:58:49.891 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 22:58:49.893 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 22:58:49.893 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 233 ms 
+2020:10:26 22:58:49.912 WARN  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [944E73E9FAF71F0933C3A9475D3BBC28] 
+2020:10:26 22:58:49.935 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 22:58:49.941 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 22:58:49.946 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-7 - Starting... 
+2020:10:26 22:58:49.947 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-7 - Start completed. 
+2020:10:26 22:58:49.948 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 22:58:50.002 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72fee1d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c87fde, org.springframework.security.web.header.HeaderWriterFilter@34716ea0, org.springframework.security.web.authentication.logout.LogoutFilter@6fb7cf08, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@262c4636, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51c965c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e721530, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@432e8ede, org.springframework.security.web.session.SessionManagementFilter@29bdb9f6, org.springframework.security.web.access.ExceptionTranslationFilter@62b6ac0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24e145d7] 
+2020:10:26 22:58:50.051 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 22:58:50.059 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 22:58:50.059 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 22:58:50.080 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 22:58:50.116 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 22:58:50.117 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 22:58:50.158 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 22:58:50.160 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.523 seconds (JVM running for 4144.468) 
+2020:10:26 22:58:50.161 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:01:51.879 INFO  --- [Thread-33] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:01:51.880 INFO  --- [Thread-33] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:01:51.880 INFO  --- [Thread-33] com.zaxxer.hikari.HikariDataSource : HikariPool-7 - Shutdown initiated... 
+2020:10:26 23:01:51.882 INFO  --- [Thread-33] com.zaxxer.hikari.HikariDataSource : HikariPool-7 - Shutdown completed. 
+2020:10:26 23:01:51.936 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:01:51.936 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:01:52.045 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:01:52.055 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:01:52.084 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3e14d01e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:01:52.084 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:01:52.122 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:01:52.122 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:01:52.122 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:01:52.166 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:01:52.167 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:01:52.167 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 230 ms 
+2020:10:26 23:01:52.203 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:01:52.209 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:01:52.214 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-8 - Starting... 
+2020:10:26 23:01:52.216 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-8 - Start completed. 
+2020:10:26 23:01:52.216 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:01:52.267 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a39ec44, org.springframework.security.web.context.SecurityContextPersistenceFilter@28ebbbc6, org.springframework.security.web.header.HeaderWriterFilter@53efe17b, org.springframework.security.web.authentication.logout.LogoutFilter@f888914, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57d5dd20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5aef4f8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76a79992, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51229932, org.springframework.security.web.session.SessionManagementFilter@10039c1a, org.springframework.security.web.access.ExceptionTranslationFilter@120c1f41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5372afeb] 
+2020:10:26 23:01:52.315 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:01:52.318 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:01:52.318 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:01:52.331 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:01:52.372 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:01:52.373 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:01:52.412 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:01:52.414 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.501 seconds (JVM running for 4326.722) 
+2020:10:26 23:01:52.415 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:02:04.141 INFO  --- [Thread-38] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:02:04.142 INFO  --- [Thread-38] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:02:04.142 INFO  --- [Thread-38] com.zaxxer.hikari.HikariDataSource : HikariPool-8 - Shutdown initiated... 
+2020:10:26 23:02:04.144 INFO  --- [Thread-38] com.zaxxer.hikari.HikariDataSource : HikariPool-8 - Shutdown completed. 
+2020:10:26 23:02:04.197 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:02:04.197 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:02:04.304 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:02:04.313 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:02:04.341 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3ec529f2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:02:04.342 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:02:04.377 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:02:04.377 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:02:04.377 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:02:04.419 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:02:04.420 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:02:04.421 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms 
+2020:10:26 23:02:04.454 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:02:04.460 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:02:04.465 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-9 - Starting... 
+2020:10:26 23:02:04.466 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-9 - Start completed. 
+2020:10:26 23:02:04.466 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:02:04.517 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74b8766f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c73bffc, org.springframework.security.web.header.HeaderWriterFilter@1fcc1649, org.springframework.security.web.authentication.logout.LogoutFilter@7ee466f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73fe1dae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@120cde2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ea1edd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@117f3543, org.springframework.security.web.session.SessionManagementFilter@7c508d58, org.springframework.security.web.access.ExceptionTranslationFilter@77347af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4986949f] 
+2020:10:26 23:02:04.566 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:02:04.570 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:02:04.571 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:02:04.582 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:02:04.623 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:02:04.623 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:02:04.660 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:02:04.663 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.487 seconds (JVM running for 4338.97) 
+2020:10:26 23:02:04.663 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:04:06.274 INFO  --- [Thread-43] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:04:06.275 INFO  --- [Thread-43] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:04:06.275 INFO  --- [Thread-43] com.zaxxer.hikari.HikariDataSource : HikariPool-9 - Shutdown initiated... 
+2020:10:26 23:04:06.278 INFO  --- [Thread-43] com.zaxxer.hikari.HikariDataSource : HikariPool-9 - Shutdown completed. 
+2020:10:26 23:04:06.334 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:04:06.335 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:04:06.449 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:04:06.458 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:04:06.489 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@15c2f607' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:04:06.489 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:04:06.526 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:04:06.527 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:04:06.527 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:04:06.572 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:04:06.573 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:04:06.573 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 237 ms 
+2020:10:26 23:04:06.607 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:04:06.613 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:04:06.618 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-10 - Starting... 
+2020:10:26 23:04:06.620 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-10 - Start completed. 
+2020:10:26 23:04:06.620 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:04:06.673 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@644df8ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@39bcb56d, org.springframework.security.web.header.HeaderWriterFilter@790b720d, org.springframework.security.web.authentication.logout.LogoutFilter@6d8f1240, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18d3a93d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@331a723c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1123e548, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2008fd16, org.springframework.security.web.session.SessionManagementFilter@9b52e5a, org.springframework.security.web.access.ExceptionTranslationFilter@6fccac1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@521d1eb3] 
+2020:10:26 23:04:06.723 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:04:06.724 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:04:06.724 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:04:06.745 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:04:06.782 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:04:06.783 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:04:06.821 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:04:06.824 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.512 seconds (JVM running for 4461.131) 
+2020:10:26 23:04:06.825 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:04:30.705 INFO  --- [Thread-48] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:04:30.705 INFO  --- [Thread-48] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:04:30.705 INFO  --- [Thread-48] com.zaxxer.hikari.HikariDataSource : HikariPool-10 - Shutdown initiated... 
+2020:10:26 23:04:30.708 INFO  --- [Thread-48] com.zaxxer.hikari.HikariDataSource : HikariPool-10 - Shutdown completed. 
+2020:10:26 23:04:30.766 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:04:30.766 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:04:30.869 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:04:30.878 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:04:30.907 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@589bacf7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:04:30.907 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:04:30.942 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:04:30.942 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:04:30.942 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:04:30.987 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:04:30.988 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:04:30.988 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 220 ms 
+2020:10:26 23:04:31.021 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:04:31.027 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:04:31.032 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-11 - Starting... 
+2020:10:26 23:04:31.034 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-11 - Start completed. 
+2020:10:26 23:04:31.034 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:04:31.085 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@618b8605, org.springframework.security.web.context.SecurityContextPersistenceFilter@70d842b2, org.springframework.security.web.header.HeaderWriterFilter@4275d88d, org.springframework.security.web.authentication.logout.LogoutFilter@f4047f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b98bd5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@715ffaaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d82e5b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48a13b22, org.springframework.security.web.session.SessionManagementFilter@4d3db412, org.springframework.security.web.access.ExceptionTranslationFilter@190300b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e8c0777] 
+2020:10:26 23:04:31.133 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:04:31.136 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:04:31.136 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:04:31.154 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:04:31.194 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:04:31.194 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:04:31.231 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:04:31.233 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.489 seconds (JVM running for 4485.541) 
+2020:10:26 23:04:31.234 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:04:38.853 INFO  --- [Thread-53] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:04:38.854 INFO  --- [Thread-53] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:04:38.854 INFO  --- [Thread-53] com.zaxxer.hikari.HikariDataSource : HikariPool-11 - Shutdown initiated... 
+2020:10:26 23:04:38.857 INFO  --- [Thread-53] com.zaxxer.hikari.HikariDataSource : HikariPool-11 - Shutdown completed. 
+2020:10:26 23:04:38.912 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:04:38.912 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:04:39.017 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:04:39.027 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:04:39.057 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@33412696' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:04:39.058 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:04:39.094 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:04:39.095 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:04:39.095 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:04:39.139 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:04:39.140 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:04:39.141 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 228 ms 
+2020:10:26 23:04:39.175 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:04:39.181 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:04:39.185 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-12 - Starting... 
+2020:10:26 23:04:39.187 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-12 - Start completed. 
+2020:10:26 23:04:39.187 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:04:39.245 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72ce7c0a, org.springframework.security.web.context.SecurityContextPersistenceFilter@e82772a, org.springframework.security.web.header.HeaderWriterFilter@4c459793, org.springframework.security.web.authentication.logout.LogoutFilter@71976fff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c10bb1e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22a070a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42399260, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fafd1b2, org.springframework.security.web.session.SessionManagementFilter@3c724a91, org.springframework.security.web.access.ExceptionTranslationFilter@4e4c484a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@527a325d] 
+2020:10:26 23:04:39.276 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:04:39.277 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:04:39.293 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:04:39.304 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:04:39.353 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:04:39.353 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:04:39.390 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:04:39.392 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.502 seconds (JVM running for 4493.701) 
+2020:10:26 23:04:39.393 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:05:09.265 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 23:05:09.265 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 23:05:09.267 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 2 ms 
+2020:10:26 23:05:11.991 INFO  --- [http-nio-8000-exec-5] c.j.b.c.auth.PrincipalDetailService : principal : User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10) 
+2020:10:26 23:05:14.129 INFO  --- [http-nio-8000-exec-8] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:05:14.900 WARN  --- [http-nio-8000-exec-5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NumberFormatException: For input string: ""] 
+2020:10:26 23:05:23.647 INFO  --- [Thread-58] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:05:23.648 INFO  --- [Thread-58] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:05:23.648 INFO  --- [Thread-58] com.zaxxer.hikari.HikariDataSource : HikariPool-12 - Shutdown initiated... 
+2020:10:26 23:05:23.651 INFO  --- [Thread-58] com.zaxxer.hikari.HikariDataSource : HikariPool-12 - Shutdown completed. 
+2020:10:26 23:05:23.704 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:05:23.704 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:05:23.806 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:05:23.815 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:05:23.844 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5b264764' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:05:23.844 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:05:23.880 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:05:23.881 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:05:23.881 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:05:23.922 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:05:23.923 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:05:23.923 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 218 ms 
+2020:10:26 23:05:23.940 WARN  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [3431804D91960535D241D69C9443496B] 
+2020:10:26 23:05:23.961 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:05:23.967 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:05:23.972 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-13 - Starting... 
+2020:10:26 23:05:23.974 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-13 - Start completed. 
+2020:10:26 23:05:23.974 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:05:24.027 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63ef6a90, org.springframework.security.web.context.SecurityContextPersistenceFilter@74745e07, org.springframework.security.web.header.HeaderWriterFilter@2bc17a81, org.springframework.security.web.authentication.logout.LogoutFilter@4e35a241, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@342dbfb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cd84d74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c6d3d1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e165e6f, org.springframework.security.web.session.SessionManagementFilter@49013ce, org.springframework.security.web.access.ExceptionTranslationFilter@2aac4914, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@393583c] 
+2020:10:26 23:05:24.063 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:05:24.063 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:05:24.073 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:05:24.085 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:05:24.130 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:05:24.131 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:05:24.167 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:05:24.170 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.485 seconds (JVM running for 4538.477) 
+2020:10:26 23:05:24.170 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:06:00.419 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 23:06:00.419 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 23:06:00.421 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 2 ms 
+2020:10:26 23:06:03.506 INFO  --- [http-nio-8000-exec-3] c.j.b.c.auth.PrincipalDetailService : principal : User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10) 
+2020:10:26 23:06:04.105 INFO  --- [http-nio-8000-exec-1] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:06:10.304 INFO  --- [http-nio-8000-exec-2] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:06:13.454 INFO  --- [http-nio-8000-exec-9] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:06:17.400 INFO  --- [http-nio-8000-exec-10] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:06:18.662 INFO  --- [http-nio-8000-exec-8] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:07:33.928 INFO  --- [Thread-63] o.s.o.j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:07:33.928 INFO  --- [Thread-63] o.s.s.c.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:07:33.928 INFO  --- [Thread-63] com.zaxxer.hikari.HikariDataSource : HikariPool-13 - Shutdown initiated... 
+2020:10:26 23:07:33.930 INFO  --- [Thread-63] com.zaxxer.hikari.HikariDataSource : HikariPool-13 - Shutdown completed. 
+2020:10:26 23:07:33.987 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Starting BlogMavenApplication on DESKTOP-7NNT3Q8 with PID 6184 (C:\dev\workspace\blog_maven\target\classes started by jeon in C:\dev\workspace\blog_maven) 
+2020:10:26 23:07:33.987 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : No active profile set, falling back to default profiles: default 
+2020:10:26 23:07:34.097 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode. 
+2020:10:26 23:07:34.106 INFO  --- [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 2 JPA repository interfaces. 
+2020:10:26 23:07:34.134 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@58b7e04a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:07:34.135 INFO  --- [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020:10:26 23:07:34.170 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8000 (http) 
+2020:10:26 23:07:34.170 INFO  --- [restartedMain] o.a.catalina.core.StandardService : Starting service [Tomcat] 
+2020:10:26 23:07:34.170 INFO  --- [restartedMain] o.a.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.38] 
+2020:10:26 23:07:34.213 INFO  --- [restartedMain] o.apache.jasper.servlet.TldScanner : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+2020:10:26 23:07:34.214 INFO  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext 
+2020:10:26 23:07:34.214 INFO  --- [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 226 ms 
+2020:10:26 23:07:34.232 WARN  --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [10D18B993AD86DB18E761B3E2F63A428] 
+2020:10:26 23:07:34.254 INFO  --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor' 
+2020:10:26 23:07:34.260 INFO  --- [task-1] o.h.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2020:10:26 23:07:34.265 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-14 - Starting... 
+2020:10:26 23:07:34.266 INFO  --- [task-1] com.zaxxer.hikari.HikariDataSource : HikariPool-14 - Start completed. 
+2020:10:26 23:07:34.266 INFO  --- [task-1] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+2020:10:26 23:07:34.319 INFO  --- [restartedMain] o.s.s.w.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32c67c3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@797eeee6, org.springframework.security.web.header.HeaderWriterFilter@70fc2cc5, org.springframework.security.web.authentication.logout.LogoutFilter@21e2f1f9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7cbf873e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37f75cf8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26fcd4c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f9e1548, org.springframework.security.web.session.SessionManagementFilter@7f8ed3c6, org.springframework.security.web.access.ExceptionTranslationFilter@6355b25b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d12ea1c] 
+2020:10:26 23:07:34.345 INFO  --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2020:10:26 23:07:34.345 INFO  --- [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2020:10:26 23:07:34.363 INFO  --- [task-2] o.s.b.d.a.OptionalLiveReloadServer : LiveReload server is running on port 35729 
+2020:10:26 23:07:34.375 INFO  --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2020:10:26 23:07:34.424 INFO  --- [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer : Tomcat started on port(s): 8000 (http) with context path '' 
+2020:10:26 23:07:34.424 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories… 
+2020:10:26 23:07:34.462 INFO  --- [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener : Spring Data repositories initialized! 
+2020:10:26 23:07:34.464 INFO  --- [restartedMain] com.jmao.blog.BlogMavenApplication : Started BlogMavenApplication in 0.497 seconds (JVM running for 4668.772) 
+2020:10:26 23:07:34.465 INFO  --- [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged 
+2020:10:26 23:07:34.769 INFO  --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020:10:26 23:07:34.769 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet' 
+2020:10:26 23:07:34.771 INFO  --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet : Completed initialization in 1 ms 
+2020:10:26 23:07:37.720 INFO  --- [http-nio-8000-exec-2] c.j.b.c.auth.PrincipalDetailService : principal : User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10) 
+2020:10:26 23:07:38.914 INFO  --- [http-nio-8000-exec-8] c.j.blog.controller.BoardController : boardView : Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:08:03.152 INFO  --- [http-nio-8000-exec-9] c.j.blog.controller.BoardController : 업뎃 상세보기 :Board(id=8, title=최종보기 상세 끝, content=<h1>글테스트완료</h1><p>뷰완료</p><p>나머지 딜리트 업데이트</p><p>후 카카오로긴</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T22:18:15, updateDate=2020-10-25T22:18:15) 
+2020:10:26 23:10:19.645 INFO  --- [http-nio-8000-exec-5] c.j.blog.controller.BoardController : boardView : Board(id=5, title=1234, content=<p>1234</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T21:54:26, updateDate=2020-10-25T21:54:26) 
+2020:10:26 23:10:20.450 INFO  --- [http-nio-8000-exec-1] c.j.blog.controller.BoardController : 업뎃 상세보기 :Board(id=5, title=1234, content=<p>1234</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T21:54:26, updateDate=2020-10-25T21:54:26) 
+2020:10:26 23:10:23.999 INFO  --- [http-nio-8000-exec-7] c.j.blog.controller.BoardController : boardView : Board(id=5, title=12342323, content=<p>1234232323</p>, count=0, user=User(id=1, username=jsh, password=$2a$10$2tKfB5CLbbrwVfOa4t6JbOA.JIkjSROxP4Seri6zX22lvs6Q/VMiC, email=12345@basc.acc, role=USER, createDate=2020-10-25T20:07:10, updateDate=2020-10-25T20:07:10), reply=[], createDate=2020-10-25T21:54:26, updateDate=2020-10-25T21:54:26) 

@@ -42,4 +42,11 @@ public class BoardController {
 		logger.info("boardView : " + boardService.글상세보기(id));
 		return "board/view";
 	}
+	
+	@GetMapping({"/board/{id}/update"})
+	public String updateForm(@PathVariable int id, Model model) {
+		model.addAttribute("boardUpdate", boardService.글상세보기(id));
+		logger.info("업뎃 상세보기 :" + boardService.글상세보기(id));
+		return "board/update";
+	}
 }

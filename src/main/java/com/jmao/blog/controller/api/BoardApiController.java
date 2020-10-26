@@ -9,8 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jmao.blog.config.auth.PrincipalDetail;
@@ -33,11 +33,17 @@ public class BoardApiController {
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
 	
-	@DeleteMapping("/api/boardDelete")
+	@DeleteMapping("/api/board")
 	public ResponseDto<Integer> deleteById(@RequestBody Map<String, String> map) {
 		logger.info("map : " + map);
 		int id = Integer.parseInt(map.get("id"));
 		boardService.글삭제하기(id);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
+	}
+	
+	@PutMapping("/api/board")
+	public ResponseDto<Integer> updateBoard(@RequestBody Map<String, String> map) {
+		boardService.글수정하기(map);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
 

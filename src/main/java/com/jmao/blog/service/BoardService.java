@@ -1,5 +1,7 @@
 package com.jmao.blog.service;
 
+import java.util.Map;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,6 +49,16 @@ public class BoardService {
 	@Transactional
 	public void 글삭제하기(int id) {
 		boardRepository.deleteById(id);
+	}
+
+	@Transactional
+	public void 글수정하기(Map<String, String> map) {
+		Board board = boardRepository.findById(Integer.parseInt(map.get("id"))).orElseThrow(()->{
+			return new IllegalArgumentException("글 찾기 실패");
+		}); // 영속화 완료	
+		board.setTitle(map.get("title"));
+		board.setContent(map.get("content"));
+		// 해당함수 종료시 트랜잭션 종료, 이때 더티체킹일어나면서 자동업뎃됨 디비에 flush 커밋
 	}
 
 	/*

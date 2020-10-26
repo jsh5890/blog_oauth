@@ -7,6 +7,10 @@ let board= {
 		$("#btn_delete").on("click",()=>{
 			this.deleteById();
 		});
+		
+		$("#btn_update").on("click",()=>{
+			this.update();
+		});
 
 	},
 
@@ -40,7 +44,7 @@ let board= {
 		};
 		$.ajax({
 			type : "DELETE",
-			url :"/api/boardDelete",
+			url :"/api/board",
 			data : JSON.stringify(data),
 			contentType : "application/json; charset=utf-8",
 			dataType : "json"
@@ -51,6 +55,31 @@ let board= {
 		}).fail(function(e){
 			alert(JSON.stringify(e));
 		});
+	},
+	
+	update : function(){
+		
+		let data = {
+			id : $("#id").val(),
+			title : $("#title").val(),
+			content : $("#content").val()
+		};
+		console.log(data);
+
+		//ajax 호출시 디폴트가 비동기 호출
+		$.ajax({
+			type : "PUT",
+			url :"/api/board",
+			data : JSON.stringify(data), // 화면 데이러
+			contentType : "application/json; charset=utf-8",
+			dataType : "json" // 서버 데이러
+		}).done(function(result){
+			alert("글쓰기 완료");
+			console.log(result);
+			location.href = "/";
+		}).fail(function(e){
+			alert(JSON.stringify(e));
+		});// 아작스 통신을 이용해서 data를 json변경해서 insert하기
 	},
 }
 
