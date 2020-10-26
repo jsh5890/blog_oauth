@@ -28,7 +28,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-applicatoin/log/*.log
+/applicatoin/log/*.log
 
 ### VS Code ###
 .vscode/
