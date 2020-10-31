@@ -1,5 +1,8 @@
 package com.jmao.blog.service;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +38,18 @@ public class UserService {
 		}
 
 		return -1;
+	}
+
+	@Transactional
+	public void 회원수정(User user) {
+		User persistance = userRepository.findById(user.getId()).orElseThrow(()->{
+			return new IllegalArgumentException("회원 찾기 실패");
+		});
+		persistance.setPassword(encpass.encode(user.getPassword()));
+		persistance.setEmail(user.getEmail());
+		LocalDateTime currentDate = LocalDateTime.now();
+		persistance.setUpdateDate(currentDate);
+		//회원수정 서비스 종료시 트랜젝션이 종료되고 더티체킹이 되어 업데이트 commit 됨(영속화됨)
 	}
 
 	/*
