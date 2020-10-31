@@ -10,6 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.jmao.blog.config.auth.PrincipalDetail;
 import com.jmao.blog.model.RoleType;
 import com.jmao.blog.model.User;
 import com.jmao.blog.repository.UserRepository;
