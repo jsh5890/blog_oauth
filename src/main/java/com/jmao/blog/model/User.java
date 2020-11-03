@@ -32,7 +32,7 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY) //프로젝트에서 연결된 DB의 넘버링 전략을 따라간다.
 	private int id; //시퀀스, auto_increment 전략
 
-	@Column(nullable = false, length = 30, unique = true)
+	@Column(nullable = false, length = 100, unique = true)
 	private String username; //아디
 
 	@Column(nullable = false, length = 100) //암호화 해야해서 넉너키
@@ -45,6 +45,8 @@ public class User {
 	//데이터 베이스는 롤타입 이라는게 없음
 	@Enumerated(EnumType.STRING)
 	private RoleType role; // 나중Enum쓴다 // admin,user...권한
+	
+	private String oauth;// kakao,google
 
 	@CreationTimestamp // 시간이 자동으로 입력
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Seoul")

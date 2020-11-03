@@ -3,7 +3,9 @@ package com.jmao.blog.controller.api;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -23,6 +25,9 @@ public class UserApiController {
 	
 	@Autowired
 	private UserService userService;
+	
+	@Autowired
+	private AuthenticationManager authenticationManager; 
 
 	@PostMapping("/auth/join")
 	public ResponseDto<Integer> save(@RequestBody User user) {
@@ -38,7 +43,7 @@ public class UserApiController {
 		logger.info("user : " + user);
 		userService.회원수정(user);
 		
-		Authentication authentication = new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword());
+		Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
 		SecurityContextHolder.getContext().setAuthentication(authentication);
 		
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
