@@ -1,5 +1,7 @@
 package com.jmao.blog.controller;
 
+import java.util.Map;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +14,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import com.jmao.blog.service.BoardService;
+
+import antlr.collections.List;
 
 @Controller
 public class BoardController {
@@ -39,7 +43,7 @@ public class BoardController {
 	@GetMapping({"/board/view/{id}"})
 	public String findById(@PathVariable int id, Model model) {
 		model.addAttribute("boardView", boardService.글상세보기(id));
-		logger.info("boardView : " + boardService.글상세보기(id));
+		//logger.info("boardView : " + boardService.글상세보기(id));
 		return "board/view";
 	}
 	

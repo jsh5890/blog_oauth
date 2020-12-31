@@ -21,6 +21,31 @@
 		<div>${boardView.content }</div>
 	</div>
 	<hr>
+	
+	<div class="card">
+		<input type="hidden" id="boardId" value="${boardView.id}">
+		<div class="card-body">
+			<textarea rows="1" class="form-control" id="reply_content"></textarea>
+		</div>
+		<div class="card-footer">
+			<button class="btn btn-primary" id="btn_reply_save">등록</button>
+		</div>
+	</div>
+	<br>
+	<div class="card">
+		<div class="card-header">댓글리스트</div>
+		<ul class="list-group" id="reply_box">
+			<c:forEach var="reply" items="${boardView.replys}">
+				<li class="list-group-item d-flex justify-content-between" id="reply">
+					<div>${ reply.content }</div>
+					<div class="d-flex">
+						<div class="font-italic"> 작성자 : ${reply.user.username} &nbsp;</div>
+						<button class="badge">삭제</button>
+					</div>
+				</li>
+			</c:forEach>
+		</ul>
+	</div>
 </div>
 
 <script src="/js/function/board.js"></script>

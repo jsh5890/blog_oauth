@@ -19,9 +19,11 @@ import org.springframework.util.FileCopyUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.jmao.blog.model.Board;
+import com.jmao.blog.model.Reply;
 import com.jmao.blog.model.UploadFile;
 import com.jmao.blog.model.User;
 import com.jmao.blog.repository.BoardRepository;
+import com.jmao.blog.repository.ReplyRepository;
 import com.jmao.blog.repository.UploadFileRepository;
 
 //스프링 컴포넌트 스캔을 통해서 Bean에 등록을 해줌. loC를 해준다.
@@ -34,13 +36,16 @@ public class BoardService {
 	private BoardRepository boardRepository;
 	
 	@Autowired
-	UploadFileRepository uploadFileRepository;
+	private UploadFileRepository uploadFileRepository;
+	
+	@Autowired
+	private ReplyRepository replyRepository;
 	
 	private final Path rootLocation; // d:/image/
 	
 	public BoardService(String uploadPath) {
 		this.rootLocation = Paths.get(uploadPath);
-		System.out.println(rootLocation.toString());
+		logger.info(rootLocation.toString());
 	}
 
 	@Transactional
@@ -131,6 +136,19 @@ public class BoardService {
 		FileCopyUtils.copy(file.getBytes(), saveFile);
 		
 		return saveFileName;
+	}
+	
+	@Transactional
+	public void 댓글쓰기(Reply reply, User user, int boardId) {
+		
+		Board board = boardRepository.findById(boardId).orElseThrow(()->{
+			return new IllegalArgumentException("댓글쓰기 실패 	: 게시글 아이디를 찾을 수 없습니다.");
+		}); 
+		
+		reply.setUser(user);
+		reply.setBoard(board);
+		
+		replyRepository.save(reply);
 	}
 
 

@@ -23,6 +23,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.jmao.blog.config.auth.PrincipalDetail;
 import com.jmao.blog.dto.ResponseDto;
 import com.jmao.blog.model.Board;
+import com.jmao.blog.model.Reply;
 import com.jmao.blog.model.UploadFile;
 import com.jmao.blog.service.BoardService;
 
@@ -83,6 +84,12 @@ public class BoardApiController {
 		
 	}
 
-
+	@PostMapping("/api/board/{boardId}/reply")
+	public ResponseDto<Integer> replySave(@PathVariable int boardId, @RequestBody Reply reply,@AuthenticationPrincipal PrincipalDetail principalDetail) {
+		logger.info("UserApiController : 댓글 세이브");
+		
+		boardService.댓글쓰기(reply, principalDetail.getUser(),boardId);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
+	}
 
 }
