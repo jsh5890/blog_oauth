@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -50,7 +51,7 @@ public class Board {
 	@JoinColumn(name = "userId") // userId로 컬럼생성됨
 	private User user; // DB는 오브젝트 저장X Fk, 자바는 오브젝트를 저장가능
 
-	@OneToMany(mappedBy = "board", fetch = FetchType.EAGER) // mappedBy 연관관계주인 x 리플테이블 board가 포링키
+	@OneToMany(mappedBy = "board", fetch = FetchType.EAGER,cascade = CascadeType.REMOVE) // mappedBy 연관관계주인 x 리플테이블 board가 포링키
 	@JsonIgnoreProperties({"board"})
 	@OrderBy("id desc")
 	private List<Reply> replys;

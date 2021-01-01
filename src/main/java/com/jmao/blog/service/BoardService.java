@@ -151,6 +151,10 @@ public class BoardService {
 		replyRepository.save(reply);
 	}
 
+	public void 댓글삭제(int replyId) {
+		replyRepository.deleteById(replyId);
+	}
+
 
 	/*
 	 * @Transactional(readOnly = true) public User 로그인(User user) { return

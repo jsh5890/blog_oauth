@@ -91,5 +91,12 @@ public class BoardApiController {
 		boardService.댓글쓰기(reply, principalDetail.getUser(),boardId);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
+	
+	@DeleteMapping("/api/board/{boardId}/reply/{replyId}")
+	public ResponseDto<Integer> replyDelete(@PathVariable int replyId) {
+		logger.info("UserApiController : 댓글 삭제");
+		boardService.댓글삭제(replyId);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
+	}
 
 }

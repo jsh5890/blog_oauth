@@ -53,9 +53,13 @@ let user= {
 			contentType : "application/json; charset=utf-8",
 			dataType : "json" // 서버 데이러
 		}).done(function(result){
-			alert("회원수정 완료");
-			console.log(result);
-			location.href = "/";
+				
+			if(result.status === 500) {
+				alert("회원가입 실패");
+			}	else {
+				alert("회원수정 완료");
+			}	
+			location.href = "/";			
 		}).fail(function(e){
 			alert(JSON.stringify(e));
 		});// 아작스 통신을 이용해서 data를 json변경해서 insert하기
