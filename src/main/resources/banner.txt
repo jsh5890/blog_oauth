@@ -3,6 +3,7 @@
 시작시작시작시작시작시작시작시작시작시작시작시작시작시작시작
 시작시작시작시작시작시작시작시작시작시작시작시작시작시작시작
 시작시작시작시작시작시작시작시작시작시작시작시작시작시작시작
+
 spring-boot.version : ${spring-boot.version}
 application.version : ${application.version}
 application.title : ${application.title}
