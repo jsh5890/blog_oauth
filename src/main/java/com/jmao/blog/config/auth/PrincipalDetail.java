@@ -2,9 +2,11 @@ package com.jmao.blog.config.auth;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Map;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.oauth2.core.user.OAuth2User;
 
 import com.jmao.blog.model.User;
 
@@ -12,11 +14,18 @@ import lombok.Getter;
 
 // 스프링 시큐리티가 로긴을 가로채고 로긴될때 유저디테일즈에서 오브젝트에 시큐리티 세션이 저장됨
 @Getter
-public class PrincipalDetail implements UserDetails{
+public class PrincipalDetail implements UserDetails, OAuth2User{
 	private User user;//컴포지션
+	private Map<String,Object> attributes;
 
+	//일반로그인
 	public PrincipalDetail(User user) {
 		this.user = user;
+	}
+	//oauth로그인
+	public PrincipalDetail(User user,Map<String,Object> attributes) {
+		this.user = user;
+		this.attributes = attributes;
 	}
 
 	@Override
@@ -69,5 +78,15 @@ public class PrincipalDetail implements UserDetails{
 		  collection.add(()->{ return "ROLE_"+user.getRole(); });
 
 		return collection;
+	}
+
+	@Override
+	public Map<String, Object> getAttributes() {
+		return attributes;
+	}
+
+	@Override
+	public String getName() {
+		return null;
 	}
 }

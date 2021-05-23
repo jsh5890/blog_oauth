@@ -23,11 +23,11 @@ public class PrincipalDetailService implements UserDetailsService {
 	//패스워드는 알아서 비교하고 유저네임만 가져옴
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		User  principal = userRepository.findByUsername(username)
-				.orElseThrow(()->{
-					return new UsernameNotFoundException("해당유저찾을수없습니다.");
-				});
-		logger.info("principal : " + principal);
-		return new PrincipalDetail(principal); //시큐리티 세션 유저정보 저장
+
+		User user = userRepository.findByUsername(username);
+		if (user != null) {
+			return new PrincipalDetail(user);
+		}
+		return null;
 	}
 }

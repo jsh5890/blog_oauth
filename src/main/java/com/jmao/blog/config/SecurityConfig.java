@@ -12,6 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.jmao.blog.config.auth.PrincipalDetailService;
+import com.jmao.blog.config.oauth.PrincipalOauth2UserService;
 
 // 빈등록 : 스프링 컨테이너에서 객체를 관리할수 있게하는것
 
@@ -22,6 +23,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
 	@Autowired
 	private PrincipalDetailService principalDetailService;
+	
+	@Autowired
+	private PrincipalOauth2UserService principalOauth2UserService;
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
@@ -36,7 +40,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 				.formLogin()
 				.loginPage("/auth/loginForm")
 				.loginProcessingUrl("/auth/login")	 // 스프링 시큐리티가 로긴을 가로채서 대신 로긴
-				.defaultSuccessUrl("/");
+				.defaultSuccessUrl("/")
+				.and()
+				.oauth2Login()
+				.loginPage("/auth/loginForm")
+				.userInfoEndpoint().userService(principalOauth2UserService);
 				//.failureUrl("/fail");
 	}
 

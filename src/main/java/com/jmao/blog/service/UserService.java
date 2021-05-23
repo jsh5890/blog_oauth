@@ -53,14 +53,11 @@ public class UserService {
 		persistance.setUpdateDate(currentDate);
 		//회원수정 서비스 종료시 트랜젝션이 종료되고 더티체킹이 되어 업데이트 commit 됨(영속화됨)
 	}
-	
-	@Transactional(readOnly = true)
-	public User 회원찾기(String username) {
-		User user = userRepository.findByUsername(username).orElseGet(()->{
-			return new User();
-		});
-		return user;
-	}
+	/*
+	 * @Transactional(readOnly = true) public User 회원찾기(String username) { User user
+	 * = userRepository.findByUsername(username).orElseGet(()->{ return new User();
+	 * }); return user; }
+	 */
 
 	/*
 	 * @Transactional(readOnly = true) public User 로그인(User user) { return

@@ -22,7 +22,6 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
 @Builder
 @Entity// User 클래스가 읽어서 자동으로  mysql에 테이블이 생성됨
 //@DynamicInsert insert시 null을 제외시킴
@@ -41,6 +40,9 @@ public class User {
 	@Column(nullable = false, length = 50)
 	private String email;
 
+	private String provider;
+	private String providerId;
+	
 	//@ColumnDefault("'user'")
 	//데이터 베이스는 롤타입 이라는게 없음
 	@Enumerated(EnumType.STRING)
@@ -55,5 +57,18 @@ public class User {
 	@CreationTimestamp // 시간이 자동으로 입력
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Seoul")
 	private LocalDateTime updateDate;
+
+	public User(int id, String username, String password, String email, String provider, String providerId,
+			RoleType role, String oauth, LocalDateTime createDate, LocalDateTime updateDate) {
+		this.username = username;
+		this.password = password;
+		this.email = email;
+		this.provider = provider;
+		this.providerId = providerId;
+		this.role = role;
+		this.oauth = oauth;
+		this.createDate = createDate;
+		this.updateDate = updateDate;
+	}
 
 }
